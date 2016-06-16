@@ -1,0 +1,46 @@
+{
+  "name": "port-drop",
+  "version": "0.0.0",
+  "description": "Bind to a port and drop privileges.",
+  "homepage": "https://github.com/sholladay/port-drop",
+  "main": "index.js",
+  "author": {
+    "name": "Seth Holladay",
+    "url": "http://seth-holladay.com",
+    "email": "me@seth-holladay.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sholladay/port-drop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sholladay/port-drop/issues",
+    "email": "me@seth-holladay.com"
+  },
+  "license": "MPL-2.0",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "tcp",
+    "http",
+    "port",
+    "ports",
+    "safe",
+    "secure",
+    "security",
+    "drop",
+    "downgrade",
+    "root",
+    "sudo",
+    "privilege",
+    "privileges"
+  ],
+  "dependencies": {
+    "root-check": "1.0.0",
+    "tcp-bind": "1.2.0"
+  }
+}
