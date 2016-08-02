@@ -10,7 +10,7 @@
     "email": "me@seth-holladay.com"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,14 @@
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "root-check": "1.0.0",
+    "tcp-bind": "1.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-tidy": "0.2.0",
+    "xo": "0.16.0"
+  },
   "keywords": [
     "tcp",
     "http",
@@ -39,8 +47,7 @@
     "privilege",
     "privileges"
   ],
-  "dependencies": {
-    "root-check": "1.0.0",
-    "tcp-bind": "1.2.0"
+  "xo": {
+    "extend": "tidy"
   }
 }

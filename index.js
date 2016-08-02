@@ -1,16 +1,13 @@
 'use strict';
 
-const
-    tcpBind = require('tcp-bind'),
-    rootCheck = require('root-check');
+const tcpBind = require('tcp-bind');
+const rootCheck = require('root-check');
 
-function allocate(input) {
-
-    const fd = Object.create(input);
-
-    for (const key in fd) {
-        fd[key] = tcpBind(fd[key]);
-    }
+const allocate = (input) => {
+    const fd = {};
+    Object.keys(input).forEach((key) => {
+        fd[key] = tcpBind(input[key]);
+    });
 
     rootCheck();
 
