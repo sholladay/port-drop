@@ -1,6 +1,6 @@
 {
   "name": "port-drop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bind to a port and drop privileges.",
   "homepage": "https://github.com/sholladay/port-drop",
   "main": "index.js",
