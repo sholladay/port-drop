@@ -1,4 +1,4 @@
-# port-drop
+# port-drop [![Build status for dangit on CircleCI.](https://img.shields.io/circleci/project/sholladay/dangit/master.svg "CircleCI Build Status")](https://circleci.com/gh/sholladay/dangit "Dangit Builds")
 
 > Bind to a port and drop privileges.
 
